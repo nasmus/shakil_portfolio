@@ -1,0 +1,14 @@
+.sidebar {
+    padding: 25px 10px;
+}
+.sidebar > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: cascadia code;
+    font-weight: 800;
+}
+.sidebar__link {
+    text-decoration: none;
+}
+
+

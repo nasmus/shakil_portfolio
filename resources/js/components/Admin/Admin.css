@@ -1,0 +1,11 @@
+.admin__header {
+  background-color: rgb(13, 5, 47);
+}
+.admin__header > h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.admin__feed {
+  display: flex;
+}

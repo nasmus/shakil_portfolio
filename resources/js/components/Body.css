@@ -1,0 +1,41 @@
+.body__1 {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  padding: 100px;
+  margin: auto;
+}
+.body__Left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  justify-content: center;
+}
+
+.body__right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+}
+
+.body__right > img {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 9px solid #ca5f1e;
+}
+
+@media screen and (max-width:780px) {
+  .body__1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .body__right {
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: -40px;
+
+  }
+}

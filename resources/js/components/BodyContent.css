@@ -1,0 +1,12 @@
+.bodyContent > h1 {
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(99, 94, 94);
+}
+.bodyContent > p {
+  text-align: center;
+  font-size: 18px;
+  color: #474746;
+}

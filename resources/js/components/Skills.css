@@ -1,0 +1,49 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    
+}
+.skills__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-left: -10px;
+    
+}
+.skills__title > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(85, 84, 84);
+}
+.skills__logo {
+    height: 40px;  
+}
+.skills__info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills__property > h2 {
+    color: rgb(85, 84, 84);
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skills__property > ul > li >h4 {
+    padding: 6px;
+    color: rgb(85, 84, 84);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width:780px) {
+    .skills__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+}

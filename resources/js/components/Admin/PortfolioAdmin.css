@@ -1,0 +1,64 @@
+.portfolioAdmin {
+    width: 80%;
+    margin: auto;
+    
+}
+.portfolioAdmin__container{
+    display: flex;
+    flex-direction: column;
+}
+.portfolioAdmin > h1{
+    
+    padding-bottom: 40px;
+    text-align: center;
+}
+.portfolioAdmin__title {
+    margin: auto;
+}
+.portfolioAdmin__title > input {
+    width: 600px;
+    padding: 15px;
+    border: none;
+    background-color: #e5dfeb;
+    margin-bottom: 20px;
+    
+}
+.portfolioAdmin__description {
+    margin: auto;
+}
+.portfolioAdmin__submit{
+    margin: auto;
+}
+.portfolioAdmin__description > textarea {
+    width: 600px;
+    height: 250px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #e5dfeb;
+}
+.portfolioAdmin__submit > input {
+    width: 600px;
+    padding: 15px;
+    border: none;
+    background-color: #e5dfeb;
+    margin-bottom: 20px;
+}
+.portfolioAdmin__date{
+    margin: auto;
+}
+.portfolioAdmin__date {
+    border: none;
+    margin-bottom: 20px;
+}
+.portfolioAdmin__button {
+    margin: auto;
+}
+.portfolioAdmin__datep {
+    margin-bottom: 20px;
+    border: none;
+    width: 600px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #e5dfeb;
+    
+}

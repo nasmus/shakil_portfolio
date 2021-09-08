@@ -1,0 +1,43 @@
+.skillComponent {
+    width: 80%;
+}
+.skillComponent__frem {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.skillComponent > h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.skillComponent__language > input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: #e5dfeb;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.skillComponent__library > input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: #e5dfeb;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.skillComponent__freamwork > input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: #e5dfeb;
+    margin: auto;
+}
+.skillComponent__right {
+    justify-content: center;
+    text-align: center;
+}

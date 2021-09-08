@@ -1,0 +1,25 @@
+.contactus {
+  border-top: 7px solid #f48612;
+  background-color: #002d40;
+}
+
+.contact__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.contact__title > h2 {
+  color: #ca5f1e;
+  padding-left: 10px;
+}
+.contact__logo {
+  color: white;
+  font-size: xx-large;
+}
+.contact__details > h4 {
+  text-align: center;
+  padding-bottom: 80px;
+  color: #ca5f1e;
+}

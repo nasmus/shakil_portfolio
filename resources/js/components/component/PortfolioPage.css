@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.PortfolioPanel > h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #41403f;
+    padding-top: 40px;
+}
+
+.portfolioPage {
+    margin: auto;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row-gap: 4rem;
+    font-family: "Loto" sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolioPage__body {
+    width: 270px;
+    height: 370px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: linear-gradient(
+        150deg,
+        rgba(232, 232, 244, 1) 0%,
+        rgba(238, 238, 242, 1) 35%,
+        rgba(230, 228, 232, 1) 100%
+    );
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    margin: auto;
+}
+.portfolioPage__title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.portfolioPage__buttomDiv {
+    display: flex;
+    flex-direction: column;
+}
+.portfolioPage__button {
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 170px;
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid #555;
+    border-radius: 5px;        
+}
+
+.portfolioPage__button > h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(94, 93, 93);
+    font-family: cascadia code;
+    text-align: center;
+}
+
+.portfolioPage__button > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;    
+    color: rgb(73, 72, 72);
+    font-family: cascadia code;
+    text-align: center;
+}
+
+.portfolioPage__Link {
+    text-decoration: none;
+    font-family: cascadia code;
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.portfolioPage__title > h3 {
+    color: #ca5f1e;
+    font-family: cascadia code;
+}
+
+
+portfolioPage__date {
+    color: #ffffff;
+    bottom: 10;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width:780px) {
+    .portfolioPage{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

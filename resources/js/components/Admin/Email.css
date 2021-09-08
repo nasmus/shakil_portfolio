@@ -1,0 +1,9 @@
+.email {
+    width: 80%;
+    
+}
+.email__header > h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}

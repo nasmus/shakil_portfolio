@@ -1,0 +1,49 @@
+.educationComponent {
+    width: 80%;
+}
+.educationComponent__details {
+    display: flex;
+    flex-direction: column;
+}
+.educationComponent__input1 {
+    margin: auto;
+}
+.educationComponent__input2 {
+    margin: auto;
+}
+.educationComponent__details > h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.educationComponent__input1 > input {
+    width: 600px;
+    padding: 20px;
+    background-color: #e5dfeb;
+    border: none;
+    margin-bottom: 20px;
+}
+.educationComponent__input2 > input {
+    width: 600px;
+    padding: 20px;
+    background-color: #e5dfeb;
+    border: none;
+    margin-bottom: 20;
+}
+.educationComponent__textarea {
+    margin: auto;
+}
+.educationComponent__textarea > textarea {
+    width: 600px;
+    height: 250px;
+    background-color: #e5dfeb;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.educationComponent__button {
+    margin: auto;
+}
+.educationComponent__button > button {
+    margin: auto;
+}
