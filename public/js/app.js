@@ -13027,69 +13027,67 @@ function Contact() {
     };
   }();
 
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "contact",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "contact__page",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "contact__left",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-          src: _image_contactImage_svg__WEBPACK_IMPORTED_MODULE_2__.default
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-        className: "contact__form",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      className: "contact__left",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+        src: _image_contactImage_svg__WEBPACK_IMPORTED_MODULE_2__.default
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      className: "contact__right",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+        className: "contact__inputfield",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-          className: "contact__right",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-            className: "contact__inputtText",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-              type: "text",
-              placeholder: "Name",
-              className: "contact__input",
-              onChange: function onChange(e) {
-                return setName(e.target.value);
-              }
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-              type: "text",
-              placeholder: "Email",
-              className: "contact__input",
-              onChange: function onChange(e) {
-                return setEmail(e.target.value);
-              }
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-              type: "text",
-              placeholder: "Phone",
-              className: "contact__input",
-              onChange: function onChange(e) {
-                return setPhone(e.target.value);
-              }
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("dic", {
-            className: "contact__inputTextarea",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("textarea", {
-              placeholder: "Message",
-              rows: "10",
-              onChange: function onChange(e) {
-                return setMessage(e.target.value);
-              }
-            })
+          className: "contact__inputtText",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+            type: "text",
+            placeholder: "Name",
+            className: "contact__input",
+            onChange: function onChange(e) {
+              return setName(e.target.value);
+            }
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+            type: "text",
+            placeholder: "Email",
+            className: "contact__input",
+            onChange: function onChange(e) {
+              return setEmail(e.target.value);
+            }
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+            type: "text",
+            placeholder: "Phone",
+            className: "contact__input",
+            onChange: function onChange(e) {
+              return setPhone(e.target.value);
+            }
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-          className: "contact__button",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
-            children: ["This site is protected by reCAPTCHA and the GooglePrivacy Policy  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("br", {}), " of Service apply"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
-            variant: "contained",
-            color: "primary",
-            disableElevation: true,
-            onClick: function onClick() {
-              return saveMessage();
-            },
-            children: "Send Message"
-          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+          className: "contact__inputTextarea",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("textarea", {
+            placeholder: "Message",
+            cols: "30",
+            rows: "9",
+            onChange: function onChange(e) {
+              return setMessage(e.target.value);
+            }
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+        className: "contact__button",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
+          children: ["This site is protected by reCAPTCHA and the GooglePrivacy Policy  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("br", {}), " of Service apply"]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
+          variant: "contained",
+          color: "primary",
+          disableElevation: true,
+          onClick: function onClick() {
+            return saveMessage();
+          },
+          children: "Send Message"
         })]
       })]
-    })
+    })]
   });
 }
 
@@ -19741,7 +19739,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    box-sizing: border-box;\r\n}\r\n.contact{\r\n    width: 70%;\r\n}\r\n\r\n.contact__page {\r\n    display: flex;\r\n    width: 65%;\r\n    margin: auto;\r\n    margin-bottom: 50px;\r\n    margin-top: 25px;\r\n}\r\n.contact__left {\r\n    border: 20px solid #ca5f1e;\r\n    border-radius: 15px;\r\n    padding: 30px;\r\n}\r\n.contact__left > img {\r\n    z-index: 20;\r\n    background: #253139;\r\n    padding: 40px;\r\n    \r\n}\r\n.contact__right {\r\n    display: flex;\r\n    margin: auto;\r\n    gap: 24px;\r\n    width: 50%;\r\n    margin-left: 40px;\r\n}\r\n\r\n.contact__input {\r\n    padding: 12px;\r\n    margin: 10px;\r\n}\r\n.contact__inputTextarea {\r\n    width: 100%;\r\n    margin: auto;\r\n}\r\n.contact__inputTextarea > textarea {\r\n    width: 255px;\r\n    height: 164px;\r\n}\r\n.contact__button {\r\n    margin: 45px;\r\n}\r\n.contact__button > p {\r\n    margin-bottom: 20px;\r\n}\r\n.contact__form {\r\n    margin: auto;\r\n    padding-top: 60px;\r\n    margin-left: 30px;\r\n    padding-left: 40px;\r\n}\r\n.contact__button > button {\r\n    padding: 10px;\r\n    padding-left: 30px;\r\n    padding-right: 20px;\r\n    color: white;\r\n    background-color: #ca5f1e;\r\n}\r\n@media screen and (max-width:780px) {\r\n    .contact{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__page{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__inputtText{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".contact {\r\n    width: 80%;\r\n    margin: auto;\r\n    display: flex;\r\n    margin-top: 40px;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n.contact__left > img {\r\n    padding: 10px;\r\n    width: 100%;\r\n    display: flex;\r\n    margin: auto;\r\n    background: #002d40;\r\n    border: 30px solid #ca5f1e;\r\n}\r\n\r\n.contact__right {\r\n    width: 60%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: auto;\r\n    \r\n}\r\n.contact__inputtText {\r\n    display: flex;\r\n    margin: auto;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n    \r\n    \r\n    \r\n}\r\n.contact__inputtText > input {\r\n    padding: 10px;\r\n    border: 1px solid #ca5f1e;\r\n    \r\n}\r\n.contact__inputTextarea > textarea{\r\n    border: 1px solid #ca5f1e;\r\n}\r\n.contact__inputfield{\r\n    display: flex;\r\n    gap: 20px;\r\n    \r\n}\r\n.contact__button {\r\n    padding-top: 30px;\r\n    display: flex;\r\n    margin: auto;\r\n    flex-direction: column;\r\n}\r\n.contact__button > p {\r\n    padding-bottom: 20px;\r\n    text-align: center;\r\n    \r\n}\r\n\r\n@media screen and (max-width:780px) {\r\n    .contact {\r\n        width: 80%;\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__left {\r\n        margin-bottom: 30px;\r\n    }\r\n    .contact__left > img {\r\n        display: none;\r\n    }\r\n    .contact__inputfield{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__button > p {\r\n        display: none;\r\n    }\r\n    .contact__inputtText > input {\r\n        padding: 10px 38px;\r\n        border: 1px solid #ca5f1e;\r\n        \r\n    } \r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

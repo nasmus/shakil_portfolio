@@ -1,78 +1,83 @@
-* {
-    box-sizing: border-box;
-}
-.contact{
-    width: 70%;
+.contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-.contact__page {
-    display: flex;
-    width: 65%;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 25px;
-}
-.contact__left {
-    border: 20px solid #ca5f1e;
-    border-radius: 15px;
-    padding: 30px;
-}
 .contact__left > img {
-    z-index: 20;
-    background: #253139;
-    padding: 40px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background: #002d40;
+    border: 30px solid #ca5f1e;
+}
+
+.contact__right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     
 }
-.contact__right {
+.contact__inputtText {
     display: flex;
     margin: auto;
-    gap: 24px;
-    width: 50%;
-    margin-left: 40px;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
 }
-
-.contact__input {
-    padding: 12px;
-    margin: 10px;
+.contact__inputtText > input {
+    padding: 10px;
+    border: 1px solid #ca5f1e;
+    
 }
-.contact__inputTextarea {
-    width: 100%;
-    margin: auto;
+.contact__inputTextarea > textarea{
+    border: 1px solid #ca5f1e;
 }
-.contact__inputTextarea > textarea {
-    width: 255px;
-    height: 164px;
+.contact__inputfield{
+    display: flex;
+    gap: 20px;
+    
 }
 .contact__button {
-    margin: 45px;
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
 }
 .contact__button > p {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
 }
-.contact__form {
-    margin: auto;
-    padding-top: 60px;
-    margin-left: 30px;
-    padding-left: 40px;
-}
-.contact__button > button {
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 20px;
-    color: white;
-    background-color: #ca5f1e;
-}
+
 @media screen and (max-width:780px) {
-    .contact{
+    .contact {
+        width: 80%;
         display: flex;
         flex-direction: column;
     }
-    .contact__page{
+    .contact__left {
+        margin-bottom: 30px;
+    }
+    .contact__left > img {
+        display: none;
+    }
+    .contact__inputfield{
         display: flex;
         flex-direction: column;
     }
-    .contact__inputtText{
-        display: flex;
-        flex-direction: column;
+    .contact__button > p {
+        display: none;
     }
+    .contact__inputtText > input {
+        padding: 10px 38px;
+        border: 1px solid #ca5f1e;
+        
+    } 
 }
