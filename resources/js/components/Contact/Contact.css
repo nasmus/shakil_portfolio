@@ -33,11 +33,11 @@
 }
 .contact__inputtText > input {
     padding: 10px;
-    border: 1px solid #ca5f1e;
+    border: 2px solid #ca5f1e;
     
 }
 .contact__inputTextarea > textarea{
-    border: 1px solid #ca5f1e;
+    border: 2px solid #ca5f1e;
 }
 .contact__inputfield{
     display: flex;
@@ -56,7 +56,7 @@
     
 }
 
-@media screen and (max-width:780px) {
+@media only screen and (max-width:780px) {
     .contact {
         width: 80%;
         display: flex;
@@ -77,7 +77,7 @@
     }
     .contact__inputtText > input {
         padding: 10px 38px;
-        border: 1px solid #ca5f1e;
+        border: 2px solid #ca5f1e;
         
     } 
 }
