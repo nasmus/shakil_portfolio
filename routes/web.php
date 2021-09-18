@@ -26,3 +26,8 @@ Route::get('/works', 'App\Http\Controllers\AdminController@admin');
 Route::get('/portfolio', 'App\Http\Controllers\AdminController@admin');
 Route::get('/admin', 'App\Http\Controllers\AdminController@admin');
 Route::get('/email', 'App\Http\Controllers\AdminController@admin');
+
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    // return what you want
+});
