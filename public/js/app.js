@@ -13982,7 +13982,6 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-var baseUrl = "http://127.0.0.1:8000/api";
 
 var person = {};
 
@@ -13993,7 +13992,7 @@ person.personDetailsSave = /*#__PURE__*/function () {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            urlSave = baseUrl + "/create";
+            urlSave = "https://nasmus.xyz/api" + "/create";
             _context.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().post(urlSave, data).then(function (response) {
               return response.data;
@@ -14025,7 +14024,7 @@ person.sendMessage = /*#__PURE__*/function () {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            urlContact = baseUrl + "/contactpage";
+            urlContact = "https://nasmus.xyz/api" + "/contactpage";
             _context2.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().post(urlContact, data).then(function (response) {
               return response.data;
@@ -14057,7 +14056,7 @@ person.educationSave = /*#__PURE__*/function () {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
-            urlEdu = baseUrl + "/education";
+            urlEdu = "https://nasmus.xyz/api" + "/education";
             _context3.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().post(urlEdu, data).then(function (response) {
               return response.data;
@@ -14089,7 +14088,7 @@ person.saveSkils = /*#__PURE__*/function () {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
-            urlskils = baseUrl + "/skills";
+            urlskils = "https://nasmus.xyz/api" + "/skills";
             _context4.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().post(urlskils, data).then(function (response) {
               return response.data;
@@ -14121,7 +14120,7 @@ person.saveportfolio = /*#__PURE__*/function () {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
-            urlportfolio = baseUrl + "/portfolio";
+            urlportfolio = "https://nasmus.xyz/api" + "/portfolio";
             _context5.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().post(urlportfolio, data).then(function (response) {
               return response.data;
@@ -14152,7 +14151,7 @@ person.showBody = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runtime_re
     while (1) {
       switch (_context6.prev = _context6.next) {
         case 0:
-          urlBody = baseUrl + "/show";
+          urlBody = "https://nasmus.xyz/api" + "/show";
           _context6.next = 3;
           return axios__WEBPACK_IMPORTED_MODULE_1___default().get(urlBody).then(function (response) {
             return response.data;
@@ -14177,7 +14176,7 @@ person.skillShow = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runtime_r
     while (1) {
       switch (_context7.prev = _context7.next) {
         case 0:
-          urlskills = baseUrl + "/skills";
+          urlskills = "https://nasmus.xyz/api" + "/skills";
           _context7.next = 3;
           return axios__WEBPACK_IMPORTED_MODULE_1___default().get(urlskills).then(function (response) {
             return response.data;
@@ -14202,7 +14201,7 @@ person.eduShow = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runtime_reg
     while (1) {
       switch (_context8.prev = _context8.next) {
         case 0:
-          urledu = baseUrl + "/education";
+          urledu = "https://nasmus.xyz/api" + "/education";
           _context8.next = 3;
           return axios__WEBPACK_IMPORTED_MODULE_1___default().get(urledu).then(function (response) {
             return response.data;
@@ -14227,7 +14226,7 @@ person.portfolioShow = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runti
     while (1) {
       switch (_context9.prev = _context9.next) {
         case 0:
-          urlPortfolioSave = baseUrl + "/portfolioShow";
+          urlPortfolioSave = "https://nasmus.xyz/api" + "/portfolioShow";
           _context9.next = 3;
           return axios__WEBPACK_IMPORTED_MODULE_1___default().get(urlPortfolioSave).then(function (response) {
             return response.data;
@@ -14254,7 +14253,7 @@ person.portfolioDetailsShow = /*#__PURE__*/function () {
       while (1) {
         switch (_context10.prev = _context10.next) {
           case 0:
-            urlPortfolioDetails = baseUrl + "/PortfolioDetails/" + id;
+            urlPortfolioDetails = "https://nasmus.xyz/api" + "/PortfolioDetails/" + id;
             _context10.next = 3;
             return axios__WEBPACK_IMPORTED_MODULE_1___default().get(urlPortfolioDetails).then(function (response) {
               return response.data;
