@@ -18,10 +18,7 @@ function Header() {
             setClick(!click);
         }
     }
-    
-    
-    
-    
+      
     return (
 
         <div className="header">
