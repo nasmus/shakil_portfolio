@@ -23,7 +23,7 @@ function Header() {
 
         <div className="header">
             <div className="header__left">
-                <div>
+                <div className="gg" >
                     <h1>MD.NASMUS <span className="header__span">SHAHADAT</span></h1>
                 </div>
                 

@@ -61,4 +61,10 @@
     width: 100%;
     
   }
+  
+}
+@media screen and (max-width:780px){
+  .header__left h1 {
+    font-size: larger;
+  }
 }

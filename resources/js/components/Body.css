@@ -39,3 +39,12 @@
 
   }
 }
+@media screen and (max-width:420px) {
+  .body__1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 100px;
+    margin: auto;
+  }
+}
