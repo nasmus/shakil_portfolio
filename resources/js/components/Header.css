@@ -63,8 +63,8 @@
   }
   
 }
-@media screen and (max-width:780px){
+@media screen and (max-width:420px){
   .header__left h1 {
-    font-size: larger;
+    font-size: x-large;
   }
 }
