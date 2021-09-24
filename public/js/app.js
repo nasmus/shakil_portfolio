@@ -13027,67 +13027,71 @@ function Contact() {
     };
   }();
 
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-    className: "contact",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-      className: "contact__left",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-        src: _image_contactImage_svg__WEBPACK_IMPORTED_MODULE_2__.default
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "contact__right",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-        className: "contact__inputfield",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-          className: "contact__inputtText",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-            type: "text",
-            placeholder: "Name",
-            className: "contact__input",
-            onChange: function onChange(e) {
-              return setName(e.target.value);
-            }
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-            type: "text",
-            placeholder: "Email",
-            className: "contact__input",
-            onChange: function onChange(e) {
-              return setEmail(e.target.value);
-            }
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
-            type: "text",
-            placeholder: "Phone",
-            className: "contact__input",
-            onChange: function onChange(e) {
-              return setPhone(e.target.value);
-            }
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-          className: "contact__inputTextarea",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("textarea", {
-            placeholder: "Message",
-            cols: "30",
-            rows: "9",
-            onChange: function onChange(e) {
-              return setMessage(e.target.value);
-            }
-          })
-        })]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    className: "contact__page",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      className: "contact",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+        className: "contact__left",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+          src: _image_contactImage_svg__WEBPACK_IMPORTED_MODULE_2__.default
+        })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-        className: "contact__button",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
-          children: ["This site is protected by reCAPTCHA and the GooglePrivacy Policy  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("br", {}), " of Service apply"]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
-          variant: "contained",
-          color: "primary",
-          disableElevation: true,
-          onClick: function onClick() {
-            return saveMessage();
-          },
-          children: "Send Message"
+        className: "contact__right",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+          className: "contact__inputfield",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "contact__inputtText",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+              type: "text",
+              placeholder: "Name",
+              className: "contact__input",
+              onChange: function onChange(e) {
+                return setName(e.target.value);
+              }
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+              type: "text",
+              placeholder: "Email",
+              className: "contact__input",
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              }
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("input", {
+              type: "text",
+              placeholder: "Phone",
+              className: "contact__input",
+              onChange: function onChange(e) {
+                return setPhone(e.target.value);
+              }
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+            className: "contact__inputTextarea",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("textarea", {
+              placeholder: "Message",
+              className: "contact__input",
+              cols: "30",
+              rows: "9",
+              onChange: function onChange(e) {
+                return setMessage(e.target.value);
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+          className: "contact__button",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
+            children: ["This site is protected by reCAPTCHA and the GooglePrivacy Policy  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("br", {}), " of Service apply"]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
+            variant: "contained",
+            color: "primary",
+            disableElevation: true,
+            onClick: function onClick() {
+              return saveMessage();
+            },
+            children: "Send Message"
+          })]
         })]
       })]
-    })]
+    })
   });
 }
 
@@ -19740,7 +19744,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".contact {\r\n    width: 80%;\r\n    margin: auto;\r\n    display: flex;\r\n    margin-top: 40px;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n.contact__left > img {\r\n    padding: 10px;\r\n    width: 100%;\r\n    display: flex;\r\n    margin: auto;\r\n    background: #002d40;\r\n    border: 30px solid #ca5f1e;\r\n}\r\n\r\n.contact__right {\r\n    width: 60%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: auto;\r\n    \r\n}\r\n.contact__inputtText {\r\n    display: flex;\r\n    margin: auto;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n    \r\n    \r\n    \r\n}\r\n.contact__inputtText > input {\r\n    padding: 10px;\r\n    border: 2px solid #ca5f1e;\r\n    \r\n}\r\n.contact__inputTextarea > textarea{\r\n    border: 2px solid #ca5f1e;\r\n}\r\n.contact__inputfield{\r\n    display: flex;\r\n    gap: 20px;\r\n    \r\n}\r\n.contact__button {\r\n    padding-top: 30px;\r\n    display: flex;\r\n    margin: auto;\r\n    flex-direction: column;\r\n}\r\n.contact__button > p {\r\n    padding-bottom: 20px;\r\n    text-align: center;\r\n    \r\n}\r\n\r\n@media only screen and (max-width:780px) {\r\n    .contact {\r\n        width: 80%;\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__left {\r\n        margin-bottom: 30px;\r\n    }\r\n    .contact__left > img {\r\n        display: none;\r\n    }\r\n    .contact__inputfield{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    .contact__button > p {\r\n        display: none;\r\n    }\r\n    .contact__inputtText > input {\r\n        padding: 10px 38px;\r\n        border: 2px solid #ca5f1e;\r\n        \r\n    } \r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, " .contact__page {\r\n    width: 80%;\r\n    margin: auto;\r\n    display: flex;\r\n    margin-top: 40px;\r\n    margin-bottom: 50px;\r\n}\r\n.contact{\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    margin: auto;\r\n    margin-top: 50px;\r\n    margin-bottom: 50px;\r\n    \r\n}\r\n.contact__right{\r\n    margin: auto;\r\n}\r\n\r\n.contact__inputfield {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    grid-gap: 20px;\r\n}\r\n\r\n.contact__inputtText {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    grid-gap: 10px;\r\n}\r\n\r\n.contact__button > p {\r\n    margin-top: 15px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.contact__left > img {\r\n    width: 80%;\r\n}\r\n\r\n.contact__input {\r\n    padding: 16px 8px;\r\n    border: 1px solid rgb(21, 37, 57);\r\n    width: 100%;\r\n}\r\n\r\n\r\n\r\n\r\n@media only screen and (max-width:780px) {\r\n    \r\n    .contact__left {\r\n        display: none;\r\n    }\r\n    .contact{\r\n        display: grid;\r\n        grid-template-columns: 1fr;\r\n    }\r\n    .contact__right {\r\n        display: grid;\r\n        grid-template-columns: 1fr;\r\n    }\r\n    .contact__inputfield{\r\n        display: grid;\r\n        grid-template-columns: 1fr;\r\n    }\r\n    \r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -19860,7 +19864,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    box-sizing: border-box;\r\n}\r\n.login {\r\n    margin: 0;\r\n    padding-top: 50px;\r\n    padding-bottom: 50px;\r\n    width: 100%;\r\n    overflow: hidden;\r\n    display: flex;\r\n    font-family: \"Loto\" sans-serif;\r\n    font-weight: 700;\r\n    align-items: center;\r\n    justify-content: center;\r\n    color: #555;\r\n    background: #ecf0f3;\r\n}\r\n.login__body {\r\n    width: 430px;\r\n    height: 700px;\r\n    padding: 60px 35px 35px 35px;\r\n    border-radius: 40px;\r\n    background: #ecf0f3;\r\n    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;\r\n    margin: auto;\r\n}\r\n.login__logo {\r\n    background: url(\"https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg\");\r\n    width: 100px;\r\n    height: 100px;\r\n    border-radius: 50%;\r\n    margin: 0 auto;\r\n    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3,\r\n        8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;\r\n}\r\n\r\n.login__title {\r\n    text-align: center;\r\n    font-size: 28px;\r\n    padding-top: 24px;\r\n    letter-spacing: 3px;\r\n}\r\n.login__subTitle {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    padding-top: 7px;\r\n    letter-spacing: 3px;\r\n}\r\n.login__fields {\r\n    width: 100%;\r\n    padding: 70px 5px 5px 5px;\r\n}\r\n.login__userName {\r\n    align-items: center;\r\n}\r\n\r\n.login__userName > input {\r\n    border: none;\r\n    outline: none;\r\n    background: none;\r\n    font-size: 18px;\r\n    color: #555;\r\n    padding: 20px 10px 20px 5px;\r\n}\r\n\r\n.login__password > input {\r\n    border: none;\r\n    outline: none;\r\n    background: none;\r\n    font-size: 18px;\r\n    color: #555;\r\n    padding: 20px 10px 20px 5px;\r\n}\r\n\r\n.signin-button {\r\n    outline: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 100%;\r\n    height: 60px;\r\n    border-radius: 30px;\r\n    font-size: 20px;\r\n    font-weight: 700;\r\n    font-family: \"Loto\" sans-serif;\r\n    color: #fff;\r\n    text-align: center;\r\n    background: #002d40;\r\n    box-shadow: 3px 3px 8px #ca5f1e, -3px -3px 8px #ffffff;\r\n    transition: 0.5s;\r\n}\r\n.login__userName {\r\n    display: flex;\r\n    align-items: center;\r\n    margin-bottom: 30px;\r\n    border-radius: 25px;\r\n    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;\r\n}\r\n.login__password {\r\n    display: flex;\r\n    align-items: center;\r\n    margin-bottom: 30px;\r\n    border-radius: 25px;\r\n    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;\r\n}\r\n.login__icon {\r\n    padding-left: 15px;\r\n    padding-right: 15px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    box-sizing: border-box;\r\n}\r\n.login {\r\n    margin: 0;\r\n    padding-top: 50px;\r\n    padding-bottom: 50px;\r\n    width: 100%;\r\n    overflow: hidden;\r\n    display: flex;\r\n    font-family: \"Loto\" sans-serif;\r\n    font-weight: 700;\r\n    align-items: center;\r\n    justify-content: center;\r\n    color: #555;\r\n    background: #ecf0f3;\r\n}\r\n.login__body {\r\n    width: 430px;\r\n    height: 700px;\r\n    padding: 60px 35px 35px 35px;\r\n    border-radius: 40px;\r\n    background: #ecf0f3;\r\n    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;\r\n    margin: auto;\r\n}\r\n.login__logo {\r\n    background: url(\"https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg\");\r\n    width: 100px;\r\n    height: 100px;\r\n    border-radius: 50%;\r\n    margin: 0 auto;\r\n    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3,\r\n        8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;\r\n}\r\n\r\n.login__title {\r\n    text-align: center;\r\n    font-size: 28px;\r\n    padding-top: 24px;\r\n    letter-spacing: 3px;\r\n}\r\n.login__subTitle {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    padding-top: 7px;\r\n    letter-spacing: 3px;\r\n}\r\n.login__fields {\r\n    width: 100%;\r\n    padding: 70px 5px 5px 5px;\r\n}\r\n.login__userName {\r\n    align-items: center;\r\n}\r\n\r\n.login__userName > input {\r\n    border: none;\r\n    outline: none;\r\n    background: none;\r\n    font-size: 18px;\r\n    color: #555;\r\n    padding: 20px 10px 20px 5px;\r\n}\r\n\r\n.login__password > input {\r\n    border: none;\r\n    outline: none;\r\n    background: none;\r\n    font-size: 18px;\r\n    color: #555;\r\n    padding: 20px 10px 20px 5px;\r\n}\r\n\r\n.signin-button {\r\n    outline: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 100%;\r\n    height: 60px;\r\n    border-radius: 30px;\r\n    font-size: 20px;\r\n    font-weight: 700;\r\n    font-family: \"Loto\" sans-serif;\r\n    color: #fff;\r\n    text-align: center;\r\n    background: #002d40;\r\n    box-shadow: 3px 3px 8px #ca5f1e, -3px -3px 8px #ffffff;\r\n    transition: 0.5s;\r\n}\r\n.login__userName {\r\n    display: flex;\r\n    align-items: center;\r\n    margin-bottom: 30px;\r\n    border-radius: 25px;\r\n    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;\r\n}\r\n.login__password {\r\n    display: flex;\r\n    align-items: center;\r\n    margin-bottom: 30px;\r\n    border-radius: 25px;\r\n    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;\r\n}\r\n.login__icon {\r\n    padding-left: 15px;\r\n    padding-right: 15px;\r\n}\r\n@media only screen and (max-width:780px) {\r\n    .login__body {\r\n        width: 350px;\r\n        \r\n    }\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

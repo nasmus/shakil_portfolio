@@ -25,6 +25,8 @@ function Contact() {
     }
 
     return (
+    <div className="contact__page">
+        
         <div className="contact">
             
             <div className="contact__left" >
@@ -38,19 +40,19 @@ function Contact() {
                         <input type="text" placeholder="Phone" className="contact__input" onChange={(e) => setPhone(e.target.value)} />
                     </div>
                     <div className="contact__inputTextarea">
-                        <textarea placeholder="Message" cols="30" rows="9" onChange={(e) => setMessage(e.target.value)} ></textarea>
+                        <textarea placeholder="Message" className="contact__input" cols="30" rows="9" onChange={(e) => setMessage(e.target.value)} ></textarea>
                     </div>
                 </div>
                 <div className="contact__button">
-                        <p>This site is protected by reCAPTCHA and the GooglePrivacy Policy  <br></br> of Service apply</p>
-                        <Button variant="contained" color="primary" disableElevation onClick={() => saveMessage()} >
-                            Send Message
-                        </Button>
-                    </div>
+                    <p>This site is protected by reCAPTCHA and the GooglePrivacy Policy  <br></br> of Service apply</p>
+                    <Button variant="contained" color="primary" disableElevation onClick={() => saveMessage()} >
+                        Send Message
+                    </Button>
+                </div>
             </div>
 
-
         </div>
+    </div>
     )
 }
 
