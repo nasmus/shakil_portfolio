@@ -1,5 +1,5 @@
 import { Button } from '@material-ui/core'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./SkillsComponent.css";
 import personServices from '../../services/Person'
 
@@ -7,6 +7,15 @@ function SkillsComponent() {
     const[language, setLanguage] = useState(null);
     const[fremwork, setFremwork] = useState(null);
     const[libraries, setLibraries] = useState(null);
+    const[skillValue, setSkillValue] = useState([]);
+
+    useEffect( () => {
+        async function fatchDataSkils(){
+            const res = await personServices.skillShow();
+            setSkillValue(res.data)
+        }
+        fatchDataSkils()
+    }, [])
 
     const saveLanguage = async() => {
         const data = {
@@ -68,15 +77,17 @@ function SkillsComponent() {
                             <input type="text" placeholder="Add Freamwork" onChange={(e) => setLibraries(e.target.value)} />
                             <Button variant="contained" color="secondary" onClick={() => saveLibraries()} >Add </Button>
                         </div>
+
                     </div>
                     <div className="skillComponent__right" >
-                        <div>
+                        <div className="skill__crud">
                             <h2>Language</h2>
+                            
                         </div>
-                        <div>
+                        <div className="skill__crud">
                             <h2>Library</h2>
                         </div>
-                        <div>
+                        <div className="skill__crud">
                             <h2>Freamwork</h2>
                         </div>
                     </div>

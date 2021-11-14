@@ -21,8 +21,9 @@
   padding-right: 10px;
 }
 .education__info {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 
@@ -50,6 +51,7 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-bottom: 30px;
 }
+
 @media screen and (max-width:780px) {
   .education__info{
     display: flex;

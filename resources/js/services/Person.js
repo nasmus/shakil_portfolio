@@ -14,6 +14,7 @@ person.personDetailsSave = async(data) => {
     })
     return res;
 }
+
 person.sendMessage = async(data) => {
     const urlContact = baseUrl+"/contactpage"
     const res = await axios.post(urlContact, data)
@@ -25,6 +26,7 @@ person.sendMessage = async(data) => {
     })
     return res;
 }
+
 person.educationSave = async(data) => {
     const urlEdu = baseUrl+"/education"
     const res = await axios.post(urlEdu, data)
