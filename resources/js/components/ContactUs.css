@@ -42,3 +42,8 @@
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width:420px){
+  .footer__show{
+    flex-direction: column;
+  }
+}
