@@ -17,10 +17,18 @@
 .footer__contain > h1 {
   padding-bottom: 10px;
 }
+.footer__contain > p{
+  font-family: "Source Code Pro", monospace;
+}
 .footer__icon {
   display: flex;
   padding-top: 15px;
   padding-bottom: 15px;
+  color: #f48612;
+}
+.footer__icon a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer__contain > h3 {

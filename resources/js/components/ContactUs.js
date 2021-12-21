@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ContactUs.css"
-import {BrowserRouter as Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -16,14 +16,11 @@ function ContactUs() {
                         Dhaka 1229, Bangladesh.
                     </p>
                     <div className="footer__icon">
-                        
-                        <span className="footer__span1"><FacebookIcon /></span>
-                        <span className="footer__span2"><LinkedInIcon /></span>
-                        <span className="footer__span3"><GitHubIcon /></span>
-                        
+                        <a href='https://www.facebook.com/nasmus1234/' ><span className="footer__span1"><FacebookIcon /></span></a>                       
+                        <a href='https://www.linkedin.com/in/nasmus/' ><span className="footer__span2"><LinkedInIcon /></span> </a> 
+                        <a href='https://github.com/nasmus' > <span className="footer__span3"><GitHubIcon /></span> </a>                       
                     </div>
                     
-
                 </div>
                 <div className="footer__contain">
                     <Link to="/" className="footer__link">
@@ -35,8 +32,7 @@ function ContactUs() {
                     <Link to="/portfoliopage" className="footer__link">
                         <h3>Portfolio</h3>
                     </Link>
-                    
-                    
+                                        
                 </div>
                 <div className="footer__contain" >
                     <h3>Email :</h3>
@@ -47,7 +43,6 @@ function ContactUs() {
                     <Link to="/login" className="footer__link">
                         <h3>LogIn</h3>
                     </Link>
-                    
                 </div>
             </div>
         </div>

@@ -10,6 +10,11 @@ function Contact() {
     const [phone, setPhone] = useState(null);
     const [message, setMessage] = useState(null);
     const saveMessage = async() => {
+        setEmail('');
+        setName('');
+        setPhone('');
+        setMessage('');
+
         const data = {
             name,email,phone,message
         }

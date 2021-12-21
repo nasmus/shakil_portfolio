@@ -13059,32 +13059,41 @@ function ContactUs() {
           children: ["5th Floor, House 16, Road 12, Nikunjo 2,", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "Dhaka 1229, Bangladesh."]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "footer__icon",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-            className: "footer__span1",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_3__.default, {})
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-            className: "footer__span2",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_LinkedIn__WEBPACK_IMPORTED_MODULE_4__.default, {})
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-            className: "footer__span3",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_5__.default, {})
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+            href: "https://www.facebook.com/nasmus1234/",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "footer__span1",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_3__.default, {})
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+            href: "https://www.linkedin.com/in/nasmus/",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "footer__span2",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_LinkedIn__WEBPACK_IMPORTED_MODULE_4__.default, {})
+            }), " "]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+            href: "https://github.com/nasmus",
+            children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "footer__span3",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_5__.default, {})
+            }), " "]
           })]
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "footer__contain",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
           to: "/",
           className: "footer__link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
             children: "Home"
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
           to: "/contactpage",
           className: "footer__link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
             children: "Contact"
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
           to: "/portfoliopage",
           className: "footer__link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
@@ -13100,7 +13109,7 @@ function ContactUs() {
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "footer__contain",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
           to: "/login",
           className: "footer__link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
@@ -13189,16 +13198,20 @@ function Contact() {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
+              setEmail('');
+              setName('');
+              setPhone('');
+              setMessage('');
               data = {
                 name: name,
                 email: email,
                 phone: phone,
                 message: message
               };
-              _context.next = 3;
+              _context.next = 7;
               return _services_Person__WEBPACK_IMPORTED_MODULE_4__.default.sendMessage(data);
 
-            case 3:
+            case 7:
               res = _context.sent;
 
               if (res.success) {
@@ -13207,7 +13220,7 @@ function Contact() {
                 alert(res.message);
               }
 
-            case 5:
+            case 9:
             case "end":
               return _context.stop();
           }
@@ -19935,7 +19948,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".footer__show {\r\n  display: flex;\r\n  width: 65%;\r\n  margin: auto;\r\n  justify-content: space-between;\r\n  padding-top: 50px;\r\n  color: white;\r\n}\r\n.footer {\r\n  border-top: 7px solid #f48612;\r\n  background: #002d40;\r\n  padding-bottom: 30px;\r\n}\r\n.footer__contain {\r\n  padding: 20px;\r\n}\r\n.footer__contain > h1 {\r\n  padding-bottom: 10px;\r\n}\r\n.footer__icon {\r\n  display: flex;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n}\r\n\r\n.footer__contain > h3 {\r\n  cursor: pointer;\r\n  padding-bottom: 15px;\r\n}\r\n.footer__span1 {\r\n  padding-right: 15px;\r\n  cursor: pointer;\r\n}\r\n.footer__span2 {\r\n  cursor: pointer;\r\n  padding-right: 15px;\r\n}\r\n.footer__span3 {\r\n  cursor: pointer;\r\n}\r\n.footer__link {\r\n  text-decoration: none;\r\n  color: white;\r\n}\r\n@media screen and (max-width:420px){\r\n  .footer__show{\r\n    flex-direction: column;\r\n  }\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".footer__show {\r\n  display: flex;\r\n  width: 65%;\r\n  margin: auto;\r\n  justify-content: space-between;\r\n  padding-top: 50px;\r\n  color: white;\r\n}\r\n.footer {\r\n  border-top: 7px solid #f48612;\r\n  background: #002d40;\r\n  padding-bottom: 30px;\r\n}\r\n.footer__contain {\r\n  padding: 20px;\r\n}\r\n.footer__contain > h1 {\r\n  padding-bottom: 10px;\r\n}\r\n.footer__contain > p{\r\n  font-family: \"Source Code Pro\", monospace;\r\n}\r\n.footer__icon {\r\n  display: flex;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n  color: #f48612;\r\n}\r\n.footer__icon a {\r\n  text-decoration: none;\r\n  color: white;\r\n}\r\n\r\n.footer__contain > h3 {\r\n  cursor: pointer;\r\n  padding-bottom: 15px;\r\n}\r\n.footer__span1 {\r\n  padding-right: 15px;\r\n  cursor: pointer;\r\n}\r\n.footer__span2 {\r\n  cursor: pointer;\r\n  padding-right: 15px;\r\n}\r\n.footer__span3 {\r\n  cursor: pointer;\r\n}\r\n.footer__link {\r\n  text-decoration: none;\r\n  color: white;\r\n}\r\n@media screen and (max-width:420px){\r\n  .footer__show{\r\n    flex-direction: column;\r\n  }\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
